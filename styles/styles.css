@@ -63,9 +63,13 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-}
-#contact-me{
+} 
+a:visited {
     color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+#contact-me{ 
     text-decoration: none;
 }
 .click{
@@ -183,6 +187,9 @@ margin-top: 46px;
 margin-left: 60px;
 }
  /* current target related styles */
+ .current-target a{
+    color: black;
+ }
  .current-target{
     width: 1100px;
     height: 460px;
